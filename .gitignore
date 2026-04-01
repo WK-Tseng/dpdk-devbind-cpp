@@ -1,3 +1,7 @@
+##### .gitignore for Project #####
+dpdk-devbind
+
+##### C++ build artifacts to ignore #####
 # Prerequisites
 *.d
 
@@ -39,3 +43,10 @@
 
 # debug information files
 *.dwo
+
+##### CMake build artifacts to ignore #####
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
